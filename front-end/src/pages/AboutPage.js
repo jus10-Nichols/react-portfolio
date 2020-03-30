@@ -6,8 +6,7 @@ function AboutPage(props) {
 
     return(
         <div>
-            <Hero title={props.title} />
-
+        <h1>About Me</h1>
             <Content>
             <p>Hello, my name is Justin. I'm a full stack engineer with experience in Django, Flask, Express JS, Node JS, Oracle SQL, MongoDB, and React.</p>
 

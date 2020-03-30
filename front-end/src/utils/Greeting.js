@@ -1,3 +1,5 @@
+import React from "react";
+
 function Greeting() {
 var today = new Date()
 var curHr = today.getHours()
@@ -5,22 +7,16 @@ var curHr = today.getHours()
 if (curHr < 12) {
 return(
 <>
-<HeaderContainer>
-<Header>Good Morning!</Header>
-</HeaderContainer>
+Good Morning!
 </>);
-} else if (curHr < 18) {  return(
+} else if (curHr < 16) {  return(
 <>
-<HeaderContainer>
-<Header>Good Afternoon!</Header>
-</HeaderContainer>
+Good Afternoon!
 </>);
 } else {
     return(
 <>
-<HeaderContainer>
-<Header>Good Evening!</Header>
-</HeaderContainer>
+Good Evening!
 </>);
 }
     

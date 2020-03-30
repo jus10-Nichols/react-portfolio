@@ -9,23 +9,22 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-
-
+import Greeting from "./utils/Greeting"
 class App extends React.Component {
   
   constructor(props) {
     super(props);
     this.state = {
-      title: 'Garrett Love',
+      title: 'Justin Nichols',
       headerLinks: [
         { title: 'Home', path: '/' },
         { title: 'About', path: '/about' },
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Be Relentless',
-        subTitle: 'Projects the make a difference',
-        text: 'Checkout my projects below'
+        title: <Greeting/>,
+        subTitle: 'Im Justin',
+        text: 'How Can I help?'
       },
       about: {
         title: 'About Me'
