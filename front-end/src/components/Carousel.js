@@ -15,26 +15,18 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Dev Grub',
-                    subTitle: 'The cookbook for developers',
+                    title: 'WellDone',
+                    subTitle: 'An IoT Application for the NGO Well-Done',
                     imgSrc: folio01,
-                    link: 'https://devgrub.com',
+                    link: 'https://github.com/Lambda-School-Labs/well-done-fe',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Garrett Love',
-                    subTitle: 'YouTube channel',
+                    title: 'FoodTruck Trackr',
+                    subTitle: 'Node Project',
                     imgSrc: folio01,
                     link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
-                    selected: false
-                },
-                {
-                    id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    imgSrc: evverest,
-                    link: 'https://github.com/garrettlove8/evverest',
                     selected: false
                 },
             ]
