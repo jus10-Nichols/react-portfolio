@@ -16,7 +16,7 @@ function AboutPage(props) {
 
             <p>My latest project, Well-Done, helps NGOs figure out where to build wells! You can check it out <a href="https://devgrub.com" target="_blank" rel="noopener noreferrer">here</a>, or on the homepage. It is built with Angular, MongoDB, Express JS, and Node JS. However, I will be rebuilding it using React in the coming months</p>
 
-            <p>When I'm not learning something new chances are I'm building something. You can find see more of my work here <a href="http://www.youtube.com/c/GarrettLove1" target="_blank" rel="noopener noreferrer">here</a></p>
+            <p>When I'm not learning something new chances are I'm building something. You can find see more of my work here <a href="#" target="_blank" rel="noopener noreferrer">here</a></p>
             </Content>
         </div>
     );

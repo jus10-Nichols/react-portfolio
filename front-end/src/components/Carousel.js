@@ -1,9 +1,7 @@
 import React from 'react';
-
 import Card from '../components/Card';
-
 import folio01 from '../assets/images/folio01.png';
-import evverest from '../assets/images/evverest.png';
+import folio02 from '../assets/images/folio02.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -25,7 +23,7 @@ class Carousel extends React.Component {
                     id: 1,
                     title: 'FoodTruck Trackr',
                     subTitle: 'Node Project',
-                    imgSrc: folio01,
+                    imgSrc: folio02,
                     link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
                     selected: false
                 },
