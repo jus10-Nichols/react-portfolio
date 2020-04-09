@@ -70,7 +70,7 @@ class ContactPage extends React.Component {
     render() {
         return(
             <div>
-                <Hero title={this.props.title} />
+                <h4 title={this.props.title} />
 
                 <Content>
                     <Form onSubmit={this.handleSubmit}>
