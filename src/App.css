@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
 }
 
 .App-logo {
@@ -30,18 +30,23 @@
 }
 * {
   scrollbar-width: thin;
-  scrollbar-color: #16a085 #F0F0F0;
+  scrollbar-color: #16a085 #f0f0f0;
 }
 *::-webkit-scrollbar {
   width: 12px;
 }
 *::-webkit-scrollbar-track {
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
 *::-webkit-scrollbar-thumb {
   background-color: #16a085;
   border-radius: 20px;
   border: 3px solid #16a085;
+}
+::selection {
+  background: none;
+  color: #16a085;
+  text-shadow: none;
 }
 @keyframes App-logo-spin {
   from {
