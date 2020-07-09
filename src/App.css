@@ -46,7 +46,7 @@
 ::selection {
   background: none;
   color: #16a085;
-  text-shadow: none;
+  text-shadow: 1px;
 }
 @keyframes App-logo-spin {
   from {

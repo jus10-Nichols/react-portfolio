@@ -1,3 +1,27 @@
 .aboutMe{
     background-color: #2E2E2E;
 }
+.introBody{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.profilePic{
+    margin-right: 6%;
+}
+.circleImg{
+    height: 47vh;
+    border-radius: 50%;
+    padding-top: 6%;
+    transform: rotate(38deg);
+}
+.myBio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    margin-top: 3%;
+    border-radius: 16.5px;
+    margin-left: 3%;
+    margin-right: 3%;
+}

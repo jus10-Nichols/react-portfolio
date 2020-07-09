@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.myName {
+  width: 19%;
+}
+.myLocation {
+  margin-right: 0%;
+}
+.contactMe{
+    padding-right: 3%;
+}
