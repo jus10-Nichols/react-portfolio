@@ -1,9 +1,12 @@
 import React from 'react';
-
+import './About.css'
 export default function About(){
     return(
         <div className ="aboutMe">
-            <h1>about me</h1>
+            <div className = "introBody">
+            <h1>About Me</h1>
+            </div>
+            
         </div>
     )
 }

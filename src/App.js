@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <Banner/>
-      <Projects/>
       <About/>
+      <Projects/>
       <Footer/>
     </div>
   );
