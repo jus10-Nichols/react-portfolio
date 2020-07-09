@@ -27,6 +27,7 @@ export default function Banner() {
             "Software Engineer",
             "Blockchain Enthusiast",
             "Cyber Security Hobbyist",
+            "Veteran",
             "Dog Dad 🐕",
           ]}
           typeSpeed={33}

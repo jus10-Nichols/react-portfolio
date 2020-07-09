@@ -10,8 +10,23 @@ export default function About(){
             <img  alt= "myFace" class="circleImg" src={ProfilePic} />
             </div>
             <div className = "myBio">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus accusamus aperiam, autem facilis sed odio non magnam incidunt optio voluptatem quis, id sint ipsum. Consectetur veniam quos 
-                    voluptatem laudantium quibusdam!</p>
+                <div className ="bioHeader">
+                <h2>About Me</h2>
+                </div>
+                <div className ="mySkills">
+                <h4>My Skills</h4><p><b>JavaScript, Python, Dart, C++, HTML, CSS, React, Redux, Node.js, Express, MySQL, SQLite3, MongoDB, Django, Flutter.</b></p>
+                </div>
+                <div className ="bio">
+                <p><b>I am a Full-Stack Developer/ Software Engineer living in Minneapolis, MN. When I am not creating user interfaces, scheming up Schemas, or building out apis. I am usually trying to learn something new, hanging out with my Dog Coco, or spending some quality time with my family and friends.</b></p>
+                </div>
+                <div className ="socialLinks">
+                    <div className = "gitHub">
+                    {/*Github Link with SVG and Label  */}
+                    </div>
+                    <div className="linkedIn">
+                    {/*Linked in Link with SVG and Label  */}
+                    </div>
+                </div>
             </div>
             </div>
         </div>
