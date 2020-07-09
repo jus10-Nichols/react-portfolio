@@ -1,0 +1,24 @@
+.gitProfile{
+    display: flex;
+    justify-content: center;
+    background-color: #2E2E2E;
+}
+.Card{
+    display: flex;
+    flex-flow: row;
+    margin-left: 53%;
+    background-color: #f0f0f0;
+    border-radius: 0.5rem;
+}
+.GithubLogo{
+    height: 6vh;
+    padding: 5%;;
+}
+.gitInfo{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 21rem;
+    padding-right: 1%
+}
