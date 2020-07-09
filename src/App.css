@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #F0F0F0;
 }
 
 .App-logo {
@@ -35,19 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-.transitions-item {
-  overflow: hidden;
-  width: 100%;
-  color: white;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  font-size: 5em;
-  font-weight: 800;
-  text-transform: uppercase;
-  will-change: transform, opacity, height;
-  white-space: nowrap;
-  cursor: pointer;
-  line-height: 80px;
 }
