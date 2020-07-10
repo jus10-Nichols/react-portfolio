@@ -17,7 +17,7 @@ export default function About(){
                 <h4>Skills</h4><p><b>JavaScript, Python, Dart, C++, HTML, CSS, React, Redux, Node.js, Express, MySQL, SQLite3, MongoDB, Django, Flutter.</b></p>
                 </div>
                 <div className ="bio">
-                <p><b>I am a Full-Stack Developer/ Software Engineer living in Minneapolis, MN. When I am not creating user interfaces, scheming up Schemas, or building out apis. I am usually trying to learn something new, hanging out with my Dog Coco, or spending some quality time with my family and friends.</b></p>
+                <p><b>I am a Full-Stack Developer/ Software Engineer living in Minneapolis, MN. When I am not creating user interfaces, scheming up Schemas, or building out apis. I am usually trying to learn something new, hanging out with my dog Coco, or spending some quality time with my family and friends.</b></p>
                 </div>
                 <div className ="socialLinks">
                     <div className = "gitHub">
