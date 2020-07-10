@@ -27,7 +27,7 @@ export default function Banner() {
             "Software Engineer",
             "Blockchain Enthusiast",
             "Cyber Security Hobbyist",
-            "Dog Dad 🐕",
+            "Dog Dad",
           ]}
           typeSpeed={33}
           backSpeed={69}
