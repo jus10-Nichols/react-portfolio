@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import GithubCard from './GithubCard';
+import {Link} from "@material-ui/core";
 import './Github.css'
 export default class GithubInfo extends React.Component {
     constructor(){
@@ -25,7 +26,9 @@ export default class GithubInfo extends React.Component {
             console.log('state', this.state)
             return (
                 <div className = 'gitProfile'>
+                    <Link href='https://github.com/jnichols93'>
                     <GithubCard user = {this.state.user}/>
+                    </Link>
                 </div>
             );}
 

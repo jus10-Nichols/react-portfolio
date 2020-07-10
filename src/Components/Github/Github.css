@@ -1,24 +1,28 @@
-.gitProfile{
-    display: flex;
-    justify-content: center;
-    background-color: #2E2E2E;
+.gitProfile {
+  display: flex;
+  /* justify-content: center; */
+  flex-flow: row-reverse;
+  background-color: #2e2e2e;
+  /* margin-right: 13%; */
+  padding-right: 14.5vw;
 }
-.Card{
-    display: flex;
-    flex-flow: row;
-    margin-left: 53%;
-    background-color: #f0f0f0;
-    border-radius: 0.5rem;
+.Card {
+  display: flex;
+  flex-flow: row;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
 }
-.GithubLogo{
-    height: 6vh;
-    padding: 5%;;
+.GithubLogo {
+  height: 6vh;
+  padding: 5%;
 }
-.gitInfo{
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 21rem;
-    padding-right: 1%
+.gitInfo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 21rem;
+  padding-right: 1%;
+  color: black;
+  text-decoration: none;
 }
