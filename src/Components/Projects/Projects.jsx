@@ -10,7 +10,7 @@ export default function Projects(){
   return(
     <div className = 'projectsBody'>
       <div className = 'projectHdr'>
-        <h2>my work</h2>
+        <h2>Portfolio</h2>
       </div>
       <div className = 'wellDone'>
       <div className = 'wdImg'>

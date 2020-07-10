@@ -21,7 +21,7 @@ export default function Footer(){
         /></b></p>
         </div>
                 <div className = "myLocation">
-                <p>📍 Living in <b>Minneapolis, MN.</b></p>
+                <p><span role='img' aria-label ='location'>📍</span> Living in <b>Minneapolis, MN.</b></p>
                 </div>
                 <div className ="contactMe">
                 <p><b>YOU CAN REACH ME AT:</b></p>
