@@ -4,6 +4,10 @@ import GithubCard from './GithubCard';
 import {Link} from "@material-ui/core";
 import './Github.css'
 
+const aStyle = {
+    color: '#16a085',
+};
+
 export default class GithubInfo extends React.Component {
     constructor(){
         super()
@@ -25,7 +29,7 @@ export default class GithubInfo extends React.Component {
         render() {
             return (
                 <div className = 'gitProfile'>
-                    <Link  href='https://github.com/jnichols93'>
+                    <Link style={aStyle} href='https://github.com/jnichols93'>
                     <GithubCard user = {this.state.user}/>
                     </Link>
                 </div>
