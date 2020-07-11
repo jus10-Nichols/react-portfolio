@@ -5,11 +5,10 @@
     display: flex;
     flex-flow: row-reverse;
     align-items: center;
-    margin-right: 7vw;
+    /* margin-right: 6vw; */
+    justify-content: center;
 }
-.profilePic{
-    margin-right: 6%;
-}
+
 .circleImg{
     height: 47vh;
     border-radius: 50%;
@@ -18,7 +17,8 @@
     transform: rotate(38deg);
 }
 .bioHeader{
-    width: 25%;
+    width: 9.5rem;
+    padding-bottom: 1%;
     padding-right: 1%;
     padding-left: 1%;
 }
@@ -27,8 +27,9 @@
     align-items: center;
     flex-direction: column;
     margin-top: 1%;
-    margin-left: 3%;
-    margin-right: 9%;
+    /* margin-left: 4%; */
+    margin-right: 2.5%;
+    
 }
 .mySkills{
     background-color: #f0f0f0;
@@ -41,6 +42,7 @@
     padding-left: 1%;
     margin-bottom: 1%;
     width: 50vw;
+    text-align: center;
 }
 .bio{
     border-radius: 16.5px;

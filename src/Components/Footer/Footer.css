@@ -5,11 +5,12 @@
   justify-content: space-between;
 }
 .myName {
-  width: 19%;
+  width: 9%;
+  margin-left:2.5rem;
 }
 .myLocation {
   margin-right: 0%;
 }
 .contactMe{
-    padding-right: 3%;
+  margin-right: 2.5rem;;
 }

@@ -14,11 +14,12 @@ export default function About(){
                 <h2>About Me</h2>
                 </div>
                 <div className ="mySkills">
-                <h4>Skills</h4><p><b>JavaScript, Python, Dart, C++, HTML, CSS, React, Redux, Node.js, Express, MySQL, SQLite3, MongoDB, Django, Flutter.</b></p>
+                <h4>Skills</h4><p>JavaScript, Python, Dart, C++, HTML, CSS, React, Redux, Node.js, Express, MySQL, SQLite3, MongoDB, Django, Flutter.</p>
                 </div>
                 <div className ="bio">
                     {/*RUN ON SENETENCE  */}
-                <p><b>I am a Full-Stack Developer/ Software Engineer living in Minneapolis, MN. When I am not creating user interfaces, scheming up Schemas, or building out apis, I am usually trying to learn something new, hanging out with my dog Coco, or spending some quality time with my family and friends.</b></p>
+                
+                <p>I am a Full-Stack Developer/ Software Engineer living in Minneapolis, MN. When I am not creating user interfaces, scheming up Schemas, or building out apis, I am usually trying to learn something new, hanging out with my dog Coco, or spending some quality time with my family and friends.</p>
                 </div>
                 <div className ="socialLinks">
                     <div className = "gitHub">
