@@ -10,7 +10,7 @@
     border-radius: 1.5rem;
     width: 19.5rem;
     height: 18.5rem;
-    margin-right: 0.5rem;
+    /* margin-right: 0.5rem; */
     background-color: white;
 }
 .projectHdr{
@@ -38,14 +38,14 @@
 }
 .wdBio {
     background-color: #f0f0f0;
-    height: 23.5rem;
-    width: 73.5rem;
+    height: 21.5rem;
+    width: 75.5rem;
     border-radius: 1.5rem;
     margin-left: 1%;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -58,8 +58,8 @@
 }
 .ftBio {
     background-color: #f0f0f0;
-    height: 23.5rem;
-    width: 73.5rem;
+    height: 21.5rem;
+    width: 75.5rem;
     border-radius: 1.5rem;
     margin-right: 1%;
     padding-left: 1%;
