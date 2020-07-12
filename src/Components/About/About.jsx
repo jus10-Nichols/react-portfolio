@@ -21,14 +21,6 @@ export default function About(){
                 
                 <p>I am a Full-Stack Developer/ Software Engineer living in Minneapolis, MN. When I am not creating user interfaces, scheming up Schemas, or building out apis, I am usually trying to learn something new, hanging out with my dog Coco, or spending some quality time with my family and friends.</p>
                 </div>
-                <div className ="socialLinks">
-                    <div className = "gitHub">
-                    {/*Github Link with SVG and Label  */}
-                    </div>
-                    <div className="linkedIn">
-                    {/*Linked in Link with SVG and Label  */}
-                    </div>
-                </div>
             </div>
             </div>
         </div>

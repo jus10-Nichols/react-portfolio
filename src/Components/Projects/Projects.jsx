@@ -3,13 +3,25 @@ import './Projects.css';
 import WellDone from '../../assets/WellDone.png';
 import FoodTruck from '../../assets/ftt.png'
 import Droom from '../../assets/Droom.png'
-import { Link } from "@material-ui/core";
+import { Link, Icon } from "@material-ui/core";
+import WebIcon from '@material-ui/icons/Web';
+import GitHubIcon from '@material-ui/icons/GitHub';
+
+
+
+
 export default function Projects(){
 
 
   const aStyle = {
     color: "#16a085",
   };
+  const bStyle = {
+    color: "#16a085",
+    width: '3em',
+    height: '2em',
+  }
+
   return(
     <div className = 'projectsBody'>
       <div className = 'projectHdr'>
@@ -24,10 +36,11 @@ export default function Projects(){
       <img  alt= "WellDone Logo" className="prjctImg" src={WellDone}/>
       <div className ='wdLinks'>
         <div className = 'deployed'>
-
+        <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><WebIcon fontSize="large"/></Link>
+        <p>Deployed Project</p>
         </div>
         <div className = 'gitHub'>
-
+        <Link style ={bStyle} label ='Github repo'><GitHubIcon fontSize="large"/></Link>
         </div>
       </div>
       </div>
@@ -57,10 +70,11 @@ export default function Projects(){
       <img  alt= "Food Truck" className="prjctImg" src={FoodTruck}/>
       <div className ='wdLinks'>
         <div className = 'deployed'>
-
+        <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><WebIcon fontSize="large"/></Link>
+        <p>Deployed Project</p>
         </div>
         <div className = 'gitHub'>
-
+        <Link style ={bStyle} label ='Github repo'><GitHubIcon fontSize="large"/></Link>
         </div>
       </div>
       </div>
@@ -89,10 +103,11 @@ export default function Projects(){
       <img  alt= "droom" className="prjctImg" src={Droom}/>
       <div className ='wdLinks'>
         <div className = 'deployed'>
-
+        <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><WebIcon fontSize="large"/></Link>
+        <p>Deployed Project</p>
         </div>
         <div className = 'gitHub'>
-
+        <Link style ={bStyle} label ='Github repo'><GitHubIcon fontSize="large"/></Link>
         </div>
       </div>
       </div>

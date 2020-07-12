@@ -71,3 +71,31 @@
     justify-content: center;
     align-items: baseline;
 }
+.wdLinks{
+    display: flex;
+    justify-content: center;
+    margin-top: .5rem;
+}
+.deployed{
+    display: flex;
+    align-items: center;
+    width: 13.5rem;
+    flex-flow: row;
+    justify-content: center;
+    background: #f0f0f0;
+    /* padding-left: 0.5rem; */
+    /* padding-right: 1.5rem; */
+    /* padding-top: .5rem; */
+    /* padding-bottom: .5rem; */
+    border-radius: 0.5rem;
+    margin-right: .5rem;
+}
+.gitHub{
+    background: #f0f0f0;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: 0.5rem;
+    margin-left: .5rem;
+}
