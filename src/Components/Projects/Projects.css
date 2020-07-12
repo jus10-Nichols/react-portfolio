@@ -11,6 +11,7 @@
     width: 19.5rem;
     height: 18.5rem;
     margin-right: 0.5rem;
+    background-color: #f0f0f0;
 }
 .projectHdr{
     width: 9.5rem;
@@ -18,7 +19,12 @@
     padding-left: 1%;
 }
 
-
+.foodTruck{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 1%;
+}
 .wellDone{
     display: flex;
     flex-flow: row;
@@ -36,6 +42,26 @@
     width: 73.5rem;
     border-radius: 1.5rem;
     margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: baseline;
+}
+.ftInfo{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+}
+.ftBio {
+    background-color: #f0f0f0;
+    height: 23.5rem;
+    width: 73.5rem;
+    border-radius: 1.5rem;
+    margin-right: 1%;
     padding-left: 1%;
     padding-right: 1%;
     padding-top: 2%;
