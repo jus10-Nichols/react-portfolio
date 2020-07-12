@@ -3,11 +3,13 @@ import './Projects.css';
 import WellDone from '../../assets/WellDone.png';
 import FoodTruck from '../../assets/ftt.png'
 import Droom from '../../assets/Droom.png'
-
+import { Link } from "@material-ui/core";
 export default function Projects(){
 
 
-
+  const aStyle = {
+    color: "#16a085",
+  };
   return(
     <div className = 'projectsBody'>
       <div className = 'projectHdr'>
@@ -31,8 +33,8 @@ export default function Projects(){
       </div>
         
         <div className = 'wdBio'>
-        <h4>Well-Done</h4>
-				<p>Well-Done Is an IoT application designed to assist Well-Done in their mission, by persisting, storing, and displaying the data collected by their Mo-Mo sensors. To provide decision-makers with a tool to see which pumps are down and need maintenance, if the well is running low, and detailed status reports updated hourly for each pump. Our team started working in early December and finished mid-February. However, in April, I and a few others were contacted by Well-Done directly and asked if we could continue on a volunteer basis! We've come a long way since then, and are almost ready for roll-out.  </p>
+        <h4>Well-Done Dashboard</h4>
+				<p> The Well-Done Dashboard Is an IoT application designed to assist <Link style={aStyle} href ='https://www.welldone.org/'>Well-Done</Link> in their mission, by persisting, storing, and displaying the data collected by their Mo-Mo sensors. To provide decision-makers with a tool to see which pumps are down and need maintenance, if the well is running low, and detailed status reports updated hourly for each pump. Our team started working in early December and finished mid-February. However, in April, I and a few others were contacted by Well-Done directly and asked if we could continue on a volunteer basis! We've come a long way since then, and are almost ready for roll-out.  </p>
 				<h4>Tech Stack:</h4> 
         <p>React, Redux, ag-Grid, SASS, Semantic UI, Reactstrap, NodeJS, PostgreSQL, Express, SQL, Knex.</p>
 				<h4>My Contributions:</h4>
