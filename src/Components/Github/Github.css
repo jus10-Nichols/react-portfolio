@@ -1,10 +1,10 @@
 .gitProfile {
   display: flex;
-  /* justify-content: center; */
+  justify-content: flex-start;
   flex-flow: row-reverse;
   background-color: #2e2e2e;
   /* margin-right: 13%; */
-  padding-right: 13%;
+  padding-right: 14%;
 }
 .Card {
   display: flex;

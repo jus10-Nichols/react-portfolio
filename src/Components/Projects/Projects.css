@@ -12,13 +12,18 @@
     height: 18.5rem;
     margin-right: 0.5rem;
 }
+.projectHdr{
+    width: 9.5rem;
+    padding-right: 1%;
+    padding-left: 1%;
+}
 
 
 .wellDone{
     display: flex;
     flex-flow: row;
     align-items: center;
-    padding: 3%;
+    padding: 1%;
 }
 .wdInfo{
     display: flex;
@@ -28,11 +33,11 @@
 .wdBio {
     background-color: #f0f0f0;
     height: 23.5rem;
-    width: 70rem;
+    width: 73.5rem;
     border-radius: 1.5rem;
     margin-left: 1%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
     padding-top: 2%;
     padding-bottom: 2%;
     display: flex;

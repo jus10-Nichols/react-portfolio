@@ -33,7 +33,7 @@ export default function Projects(){
         <h4>Well-Done</h4>
 				<p>Well-Done Is an IoT application designed to assist Well-Done in their mission, by persisting, storing, and displaying the data collected by their Mo-Mo sensors. To provide decision-makers with a tool to see which pumps are down and need maintenance, if the well is running low, and detailed status reports updated hourly for each pump. Our team started working in early December and finished mid-February. However, in April, I and a few others were contacted by Well-Done directly and asked if we could continue on a volunteer basis! We've come a long way since then, and are almost ready for roll-out.  </p>
 				<h4>Tech Stack:</h4> 
-        <p><b>React, Redux, ag-Grid, SASS, Semantic UI, Reactstrap, NodeJS, PostgreSQL, Express, SQL, Knex.</b></p>
+        <p>React, Redux, ag-Grid, SASS, Semantic UI, Reactstrap, NodeJS, PostgreSQL, Express, SQL, Knex.</p>
 				<h4>My Contributions:</h4>
 				<ul>
 				<li>Created an activity calendar that uses color to indicate the status by day for an individual sensor and water pump.</li> 
