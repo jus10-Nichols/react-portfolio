@@ -1,14 +1,20 @@
 import React from 'react';
-import GitLogo from '../../assets/githublogo.png';
+
 import './Github.css'
+import GitHubIcon from '@material-ui/icons/GitHub';
 
 const GithubCard = (props) => {
     
+    const bStyle = {
+        color: "#2E2E2E",
+        width: '3em',
+        height: '2em',
+    }
 
     return(
         <div className = 'Card'>
             <div className = 'gitImg'>
-                <img alt = 'github logo' className ='GithubLogo' src ={GitLogo}/>
+                <GitHubIcon style={bStyle}/>
             </div>
             <div className = 'gitInfo'>
             <h3>Username: {props.user.login}</h3>

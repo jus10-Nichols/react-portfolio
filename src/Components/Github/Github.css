@@ -5,16 +5,19 @@
   background-color: #2e2e2e;
   /* margin-right: 13%; */
   padding-right: 20.5rem;
+  
+
+
 }
+
 .Card {
   display: flex;
   flex-flow: row;
   background-color: #f0f0f0;
   border-radius: 0.5rem;
 }
-.GithubLogo {
-  height: 6vh;
-  padding: 5%;
+.gitImg{
+  padding-top: 1%;
 }
 .gitInfo {
   display: flex;
@@ -23,6 +26,6 @@
   justify-content: space-around;
   width: 21rem;
   padding-right: 1%;
-  color: black;
+  color: #2e2e2e;
   text-decoration: none;
 }

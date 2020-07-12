@@ -3,7 +3,7 @@ import './Projects.css';
 import WellDone from '../../assets/WellDone.png';
 import FoodTruck from '../../assets/ftt.png'
 import Droom from '../../assets/Droom.png'
-import { Link, Icon } from "@material-ui/core";
+import { Link } from "@material-ui/core";
 import WebIcon from '@material-ui/icons/Web';
 import GitHubIcon from '@material-ui/icons/GitHub';
 
@@ -17,9 +17,15 @@ export default function Projects(){
     color: "#16a085",
   };
   const bStyle = {
-    color: "#16a085",
+    color: "#2e2e2e",
     width: '3em',
     height: '2em',
+  }
+  const cStyle ={
+    width: '6em',
+    height: '2em',
+    color: "#2e2e2e",
+    
   }
 
   return(
@@ -35,13 +41,15 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "WellDone Logo" className="prjctImg" src={WellDone}/>
       <div className ='wdLinks'>
-        <div className = 'deployed'>
-        <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><WebIcon fontSize="large"/></Link>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><div className = 'deployed'>
+        <WebIcon fontSize="large"/>
         <p>Deployed Project</p>
-        </div>
+        </div></Link>
+
+        <Link style ={cStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
         <div className = 'gitHub'>
-        <Link style ={bStyle} label ='Github repo'><GitHubIcon fontSize="large"/></Link>
-        </div>
+        <GitHubIcon fontSize="large"/>
+        </div></Link>
       </div>
       </div>
         
