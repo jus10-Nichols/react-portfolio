@@ -12,15 +12,13 @@ const GithubCard = (props) => {
     }
 
     return(
-        <div className = 'Card'>
-            <div className = 'gitImg'>
+        <button className = 'Card'>
                 <GitHubIcon style={bStyle}/>
-            </div>
             <div className = 'gitInfo'>
             <h3>Username: {props.user.login}</h3>
             <h3>Repos: {props.user.public_repos}</h3>
             </div>
-        </div>
+        </button>
     )
 }
 

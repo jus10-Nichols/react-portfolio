@@ -15,6 +15,7 @@
   flex-flow: row;
   background-color: #f0f0f0;
   border-radius: 0.5rem;
+  border: none;
 }
 .gitImg{
   padding-top: 1%;
@@ -28,4 +29,8 @@
   padding-right: 1%;
   color: #2e2e2e;
   text-decoration: none;
+}
+
+.button:hover{
+  color:#16a085;
 }
