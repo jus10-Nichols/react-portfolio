@@ -78,7 +78,9 @@
     flex-flow: row;
     justify-content: space-between;
     margin-top: .5rem;
+    margin-bottom: 1rem;
 }
+
 .deployed{
     display: flex;
     align-items: center;
