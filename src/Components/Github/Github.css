@@ -3,11 +3,7 @@
   justify-content: flex-start;
   flex-flow: row-reverse;
   background-color: #2e2e2e;
-  /* margin-right: 13%; */
-  padding-right: 20.5rem;
-  
-
-
+  padding-right: 14.5rem;
 }
 
 .Card {
@@ -17,7 +13,7 @@
   border-radius: 0.5rem;
   border: none;
 }
-.gitImg{
+.gitImg {
   padding-top: 1%;
 }
 .gitInfo {
@@ -31,6 +27,6 @@
   text-decoration: none;
 }
 
-.button:hover{
-  color:#16a085;
+.button:hover {
+  color: #16a085;
 }
