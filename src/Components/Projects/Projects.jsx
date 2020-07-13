@@ -41,15 +41,15 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "WellDone Logo" className="prjctImg" src={WellDone}/>
       <div className ='wdLinks'>
-      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><div className = 'deployed'>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><button className = 'deployed'>
         <WebIcon fontSize="large"/>
-        <p>Deployed Project</p>
-        </div></Link>
+        <h3>Deployed Project</h3>
+        </button></Link>
 
         <Link style ={cStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
-        <div className = 'gitHub'>
+        <button className = 'gitHub'>
         <GitHubIcon fontSize="large"/>
-        </div></Link>
+        </button></Link>
       </div>
       </div>
         
@@ -77,18 +77,19 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "Food Truck" className="prjctImg" src={FoodTruck}/>
       <div className ='wdLinks'>
-        <div className = 'deployed'>
-        <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><WebIcon fontSize="large"/></Link>
-        <p>Deployed Project</p>
-        </div>
-        <div className = 'gitHub'>
-        <Link style ={bStyle} label ='Github repo'><GitHubIcon fontSize="large"/></Link>
-        </div>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><button className = 'deployed'>
+        <WebIcon fontSize="large"/>
+        <h3>Deployed Project</h3>
+        </button></Link>
+        <Link style ={cStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
+        <button className = 'gitHub'>
+        <GitHubIcon fontSize="large"/>
+        </button></Link>
       </div>
       </div>
         
         <div className = 'ftBio'>
-        <h4>Food Truck Trackr</h4>
+        <h4>Food Truck Trackr API</h4>
 				<p>Food Truck Trackr, is an application every foodie needs! It gives users the ability to find their favorite food trucks around town, and where they plan to be next. And food truck owners, can use the platform to communicate with potential guests. As part of a build week, I and a team of four front-end developers built out this application in only four days. I built the API and Database, individually while the rest of the team focused on the front end.</p>
 				<h4>Tech Stack:</h4> 
         <p>Node.js, Express, Sqlite3, Knex, PostgreSQL, SuperTest, Helmet, Bcrypt.js</p>
@@ -110,18 +111,19 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "droom" className="prjctImg" src={Droom}/>
       <div className ='wdLinks'>
-        <div className = 'deployed'>
-        <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><WebIcon fontSize="large"/></Link>
-        <p>Deployed Project</p>
-        </div>
-        <div className = 'gitHub'>
-        <Link style ={bStyle} label ='Github repo'><GitHubIcon fontSize="large"/></Link>
-        </div>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><button className = 'deployed'>
+        <WebIcon fontSize="large"/>
+        <h3>Deployed Project</h3>
+        </button></Link>
+        <Link style ={cStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
+        <button className = 'gitHub'>
+        <GitHubIcon fontSize="large"/>
+        </button></Link>
       </div>
       </div>
         
         <div className = 'wdBio'>
-        <h4>Droom</h4>
+        <h4>Droom Front-End</h4>
         <p>Droom lets job seekers swipe right on their dream job! 
 			Job posters simply post their job opening on Droom, 
 			and qualified candidates can swipe right to confirm their interest! As a build-week project, I was given four days to produce a fully functional react/redux front-end.</p>
