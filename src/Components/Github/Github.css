@@ -31,7 +31,16 @@
 .button:hover {
   color: #16a085;
 }
-@media(max-width:900px){
-
+@media(max-width:500px){
+  .gitInfo {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 12rem;
+    padding-right: 1%;
+    color: #2e2e2e;
+    text-decoration: none;
+  }
 
 }

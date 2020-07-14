@@ -13,11 +13,7 @@
     /* margin-right: 0.5rem; */
     background-color: white;
 }
-.projectHdr{
-    width: 9.5rem;
-    padding-right: 1%;
-    padding-left: 1%;
-}
+
 
 .foodTruck{
     display: flex;
@@ -136,4 +132,29 @@
         margin-bottom: 2rem;
     }
 
+}
+@media(max-width:500px){
+    .foodTruck {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        padding: 1%;
+        width: 93%;
+    }
+    .wellDone {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        padding: 1%;
+        width: 93%;
+    }
+    .circleImg {
+        height: 54vw;
+        border-radius: 50%;
+        padding-top: 6%;
+        padding-bottom: 5%;
+        transform: rotate(38deg);
+    }
+    
+    
 }
