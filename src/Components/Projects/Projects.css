@@ -24,54 +24,60 @@
     flex-flow: row;
     align-items: center;
     padding: 1%;
+    width: 73%;
 }
 .wellDone{
     display: flex;
     flex-flow: row;
     align-items: center;
     padding: 1%;
+    width: 73%;
 }
 .wdInfo{
     display: flex;
     flex-flow: row;
     align-items: center;
+    justify-content: center;
 }
 .wdBio {
     background-color: #f0f0f0;
-    height: 21.5rem;
-    width: 75.5rem;
+    /* height: 100%; */
+    /* width: 75.5rem; */
     border-radius: 1.5rem;
     margin-left: 1%;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    /* padding-top: 2.5%; */
+    /* padding-bottom: 2.5%; */
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: baseline;
+    margin-bottom: 1%;
 }
 .ftInfo{
     display: flex;
     flex-flow: row-reverse;
     align-items: center;
     height: 23rem;
+    justify-content: center;
 
 }
 .ftBio {
     background-color: #f0f0f0;
-    height: 20.5rem;
-    width: 75.5rem;
+    /* height: 20.5rem; */
+    /* width: 75.5rem; */
     border-radius: 1.5rem;
     margin-right: 1%;
     padding-left: 1%;
     padding-right: 1%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    /* padding-top: 2%; */
+    /* padding-bottom: 2%; */
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: baseline;
+    margin-bottom: 1%;
 }
 .wdLinks{
     display: flex;
