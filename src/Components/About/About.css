@@ -57,13 +57,35 @@ h4{
     margin-bottom: 0;
 }
 
-@media(max-width:500px){
+@media(max-width:900px){
     .introBody {
         display: flex;
         flex-flow: column;
         align-items: center;
         /* margin-right: 6vw; */
         justify-content: center;
+        padding: 1%;
+    }
+    .bio {
+        border-radius: 16.5px;
+        background-color: #f0f0f0;
+        padding-top: 1%;
+        padding-right: 1%;
+        padding-left: 1%;
+        width: 72vw;
+    }
+    .mySkills {
+        background-color: #f0f0f0;
+        border-radius: 16.5px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        padding-bottom: 0%;
+        padding-right: 1%;
+        padding-left: 1%;
+        margin-bottom: 1%;
+        width: 72vw;
+        text-align: center;
     }
 
 }

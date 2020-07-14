@@ -4,6 +4,7 @@
   flex-flow: row-reverse;
   background-color: #2e2e2e;
   padding-right: 14%;
+  padding-bottom: 1%;
 }
 
 .Card {
@@ -21,7 +22,7 @@
   flex-flow: row;
   align-items: center;
   justify-content: space-around;
-  width: 21rem;
+  width: 20rem;
   padding-right: 1%;
   color: #2e2e2e;
   text-decoration: none;
@@ -29,4 +30,8 @@
 
 .button:hover {
   color: #16a085;
+}
+@media(max-width:900px){
+
+
 }
