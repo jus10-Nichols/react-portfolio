@@ -11,7 +11,7 @@ export default function About(){
             </div>
             <div className = "myBio">
                 <div className ="bioHeader">
-                <h2>About Me</h2>
+                <h2>About Me...</h2>
                 </div>
                 <div className ="mySkills">
                 <h4>Skills</h4><p>JavaScript, Python, Dart, C++, HTML, CSS, React, Redux, Node.js, Express, MySQL, SQLite3, MongoDB, Django, Flutter.</p>
