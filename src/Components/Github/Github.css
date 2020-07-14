@@ -10,6 +10,7 @@
 .Card {
   display: flex;
   flex-flow: row;
+  align-items: center;
   background-color: #f0f0f0;
   border-radius: 0.5rem;
   border: none;
@@ -23,7 +24,6 @@
   align-items: center;
   justify-content: space-around;
   width: 20rem;
-  padding-right: 1%;
   color: #2e2e2e;
   text-decoration: none;
 }
@@ -51,15 +51,23 @@
     padding-right: 14%;
     /* padding-bottom: 1%; */
 }
-  .gitInfo {
-    display: flex;
-    flex-flow: row;
-    /* align-items: center; */
-    justify-content: space-between;
-    width: 51vw;
-    padding-right: 1%;
-    color: #2e2e2e;
-    text-decoration: none;
+.gitProfile {
+  display: flex;
+  justify-content: center;
+  flex-flow: row-reverse;
+  background-color: #2e2e2e;
+  padding-left: 13%;
+  padding-right: 15%;
+  padding-bottom: 1%;
+}
+.gitInfo {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  color: #2e2e2e;
+  text-decoration: none;
 }
 
 }
