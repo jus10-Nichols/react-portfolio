@@ -32,6 +32,14 @@
   color: #16a085;
 }
 @media(max-width:500px){
+  .gitProfile {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row-reverse;
+    background-color: #2e2e2e;
+    padding-right: 14%;
+    /* padding-bottom: 1%; */
+}
   .gitInfo {
     display: flex;
     flex-flow: row;

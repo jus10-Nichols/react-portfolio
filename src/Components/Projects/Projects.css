@@ -15,19 +15,19 @@
 }
 
 
-.foodTruck{
+.foodTruck {
     display: flex;
     flex-flow: row;
     align-items: center;
     padding: 1%;
-    width: 73%;
+    width: 93%;
 }
-.wellDone{
+.wellDone {
     display: flex;
     flex-flow: row;
     align-items: center;
     padding: 1%;
-    width: 73%;
+    width: 93%;
 }
 .wdInfo{
     display: flex;
@@ -134,20 +134,7 @@
 
 }
 @media(max-width:500px){
-    .foodTruck {
-        display: flex;
-        flex-flow: row;
-        align-items: center;
-        padding: 1%;
-        width: 93%;
-    }
-    .wellDone {
-        display: flex;
-        flex-flow: row;
-        align-items: center;
-        padding: 1%;
-        width: 93%;
-    }
+
     .circleImg {
         height: 54vw;
         border-radius: 50%;
