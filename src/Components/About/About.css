@@ -7,10 +7,11 @@
     align-items: center;
     /* margin-right: 6vw; */
     justify-content: center;
+    padding:1%;
 }
 
 .circleImg{
-    height: 21.5rem;
+    height: 21vw;
     border-radius: 50%;
     padding-top: 6%;
     padding-bottom: 5%;
@@ -54,4 +55,15 @@
 }
 h4{
     margin-bottom: 0;
+}
+
+@media(max-width:500px){
+    .introBody {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        /* margin-right: 6vw; */
+        justify-content: center;
+    }
+
 }
