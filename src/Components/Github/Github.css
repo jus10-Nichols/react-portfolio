@@ -37,7 +37,8 @@
     display: flex;
     justify-content: center;
     background-color: #2e2e2e;
-    /* padding-right: 24%; */
+    padding-left: 22%;
+    padding-right: 25%;
     padding-bottom: 1%;
 }
 }
