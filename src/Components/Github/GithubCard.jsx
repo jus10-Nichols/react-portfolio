@@ -7,7 +7,7 @@ const GithubCard = (props) => {
     
     const bStyle = {
         color: "#2E2E2E",
-        width: '3em',
+        width: '2em',
         height: '2em',
     }
 
