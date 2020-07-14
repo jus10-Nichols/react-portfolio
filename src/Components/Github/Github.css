@@ -31,6 +31,16 @@
 .button:hover {
   color: #16a085;
 }
+
+@media(max-width:900px){
+  .gitProfile {
+    display: flex;
+    justify-content: center;
+    background-color: #2e2e2e;
+    /* padding-right: 24%; */
+    padding-bottom: 1%;
+}
+}
 @media(max-width:500px){
   .gitProfile {
     display: flex;
@@ -43,12 +53,12 @@
   .gitInfo {
     display: flex;
     flex-flow: row;
-    align-items: center;
-    justify-content: space-around;
-    width: 12rem;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 51vw;
     padding-right: 1%;
     color: #2e2e2e;
     text-decoration: none;
-  }
+}
 
 }
