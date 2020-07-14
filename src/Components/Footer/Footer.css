@@ -5,19 +5,20 @@
   justify-content: space-between;
 }
 .myName {
-  margin-left:2.5rem;
+  width: 26%;
+  margin-left: 2.5rem;
 }
 .myLocation {
   margin-right: 0%;
 }
-.contactMe{
-  displaY: flex;
+.contactMe {
+  display: flex;
   flex-flow: column;
   align-items: center;
-  margin-right:2.5rem;
+  margin-right: 2.5rem;
 }
 
-@media(max-width:900px){
+@media (max-width: 900px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -25,13 +26,12 @@
     justify-content: space-between;
   }
   .myName {
-  margin-left:0;
+    margin-left: 0;
   }
   .myLocation {
     margin-right: 0%;
   }
-  .contactMe{
-    margin-right:0;
+  .contactMe {
+    margin-right: 0;
   }
-
 }
