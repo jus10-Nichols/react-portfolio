@@ -46,7 +46,7 @@ export default function Projects(){
         <h3>Deployed Project</h3>
         </button></Link>
 
-        <Link style ={cStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
+        <Link style ={bStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
         <button className = 'gitHub'>
         <GitHubIcon fontSize="large"/>
         </button></Link>
@@ -81,7 +81,7 @@ export default function Projects(){
         <WebIcon fontSize="large"/>
         <h3>Deployed Project</h3>
         </button></Link>
-        <Link style ={cStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
+        <Link style ={bStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
         <button className = 'gitHub'>
         <GitHubIcon fontSize="large"/>
         </button></Link>
@@ -115,7 +115,7 @@ export default function Projects(){
         <WebIcon fontSize="large"/>
         <h3>Deployed Project</h3>
         </button></Link>
-        <Link style ={cStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
+        <Link style ={bStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
         <button className = 'gitHub'>
         <GitHubIcon fontSize="large"/>
         </button></Link>
