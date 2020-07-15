@@ -81,7 +81,7 @@
     align-items: center;
     /* margin-top: 1%; */
     margin-bottom: 10%;
-    width: 85%;
+    width:84%;
 }
 
 .deployed{
@@ -94,22 +94,19 @@
     /* padding-left: 0.5rem; */
     /* padding-right: 1.5rem; */
     /* padding-top: .5rem; */
-    /* padding-bottom: .5rem; */
+    /* padding-bottom: .5em; */
     border-radius: 0.5rem;
-    margin-right: .5rem;
+    /* margin-right: .5rem; */
+    margin-left: 35%;
     border: none;
     text-decoration: none;
-    color: #2e2e2e;
 }
 .gitHub{
     background: #f0f0f0;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-top: .5rem;
-    padding-bottom: .3rem;
     border-radius: 0.5rem;
-    margin-left: .5rem;
-    border:none;
+    margin-left: 56%;
+    padding: 13%;
+    border: none;
     color: #2e2e2e;
 }
 
