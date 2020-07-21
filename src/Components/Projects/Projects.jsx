@@ -41,7 +41,8 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "WellDone Logo" className="prjctImg" src={WellDone}/>
       <div className ='wdLinks'>
-      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><button className = 'deployed'>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'>
+        <button className = 'deployed'>
         <WebIcon fontSize="large"/>
         <h3>Deployed Project</h3>
         </button></Link>
@@ -111,7 +112,8 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "droom" className="prjctImg" src={Droom}/>
       <div className ='wdLinks'>
-      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><button className = 'deployed'>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'>
+        <button className = 'deployed'>
         <WebIcon fontSize="large"/>
         <h3>Deployed Project</h3>
         </button></Link>
