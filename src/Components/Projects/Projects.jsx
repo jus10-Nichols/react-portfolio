@@ -78,11 +78,11 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "Food Truck" className="prjctImg" src={FoodTruck}/>
       <div className ='wdLinks'>
-      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'><button className = 'deployed'>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://ftt2.herokuapp.com/'><button className = 'deployed'>
         <WebIcon fontSize="large"/>
         <h3>Deployed Project</h3>
         </button></Link>
-        <Link style ={bStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
+        <Link style ={bStyle} label ='Github repo' href ='https://github.com/food-truck-trackr/back-end'>
         <button className = 'gitHub'>
         <GitHubIcon fontSize="large"/>
         </button></Link>
@@ -117,7 +117,7 @@ export default function Projects(){
         <WebIcon fontSize="large"/>
         <h3>Deployed Project</h3>
         </button></Link>
-        <Link style ={bStyle} label ='Github repo' href ='https://github.com/Lambda-School-Labs/well-done-fe'>
+        <Link style ={bStyle} label ='Github repo' href ='https://github.com/bw-drooms/front-end'>
         <button className = 'gitHub'>
         <GitHubIcon fontSize="large"/>
         </button></Link>
