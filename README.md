@@ -1,6 +1,6 @@
 
 ## Deployed Project:
-https://justin-nichols.netlify.app/
+justin-nichols.codes
 
 ## Available Scripts
 
