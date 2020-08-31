@@ -33,7 +33,7 @@ h3, h4,h4, p{
 .App-link {
   color: #16a085;
 }
-* {
+/* * {
   scrollbar-width: thin;
   scrollbar-color: #16a085 #f0f0f0;
 }
@@ -47,7 +47,7 @@ h3, h4,h4, p{
   background-color: #16a085;
   border-radius: 20px;
   border: 3px solid #16a085;
-}
+} */
 ::selection {
   background: none;
   color: #16a085;
