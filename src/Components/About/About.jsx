@@ -14,7 +14,8 @@ export default function About(){
                 <h2>About Me...</h2>
                 </div>
                 <div className ="mySkills">
-                <h4>Skills</h4><p>JavaScript, Python, Dart, C++, HTML, CSS, React, Redux, Node.js, Express, MySQL, SQLite3, MongoDB, Django, Flutter.</p>
+                <h4>Tech Stack (so far)</h4>
+                <p>JavaScript, Python, HTML, CSS, SQL, Dart, C++ React, Redux, Node.js, Express, PostgreSQL, Flutter, MongoDB. </p>
                 </div>
                 <div className ="bio">
                     {/*RUN ON SENETENCE  */}
