@@ -7,7 +7,7 @@ export default function About(){
         <div className ="aboutMe">
             <div className = "introBody">
             <div className = "profilePic">
-            <img  alt= "A very handsome and talented Web Developer" className="justinNichols" src={ProfilePic} />
+            <img  alt= "A very cool developer" className="justinNichols" src={ProfilePic} />
             </div>
             <div className = "myBio">
                 <div className ="bioHeader">
