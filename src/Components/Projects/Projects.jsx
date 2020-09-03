@@ -67,6 +67,7 @@ export default function Projects(){
 				<li>Added the ability to filter and export pump data to an excel spread sheet.</li>
 				<li>Created a global mix-ins SASS stylesheet with all colors needed, and common component stylings according to our Figma to make styling changes quick and easy.</li>
         </ul>
+        <p><b>***I can provide log-in info on request***</b></p>
       </div>
       </div>
       </div>
