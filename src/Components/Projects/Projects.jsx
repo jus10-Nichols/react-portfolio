@@ -50,6 +50,7 @@ export default function Projects(){
         
         <div className = 'wdBio'>
         <h4>Well-Done Dashboard</h4>
+        <p><b>***I can provide log-in info on request***</b></p>
 				<p> <Link style ={aStyle} href ='https://www.welldone.org/remote-monitoring'>The Well-Done Dashboard</Link> Is an IoT application designed to assist <Link style={aStyle} href ='https://www.welldone.org/'>Well-Done</Link> in their mission, by persisting, storing, and displaying the data collected by their Mo-Mo sensors. To provide decision-makers with a tool to see which pumps are down and need maintenance, if the well is running low, and detailed status reports updated hourly for each pump. Our team started working in early December and finished mid-February. However, in April, I and a few others were contacted by Well-Done directly and asked if we could continue on a volunteer basis! We've come a long way since then, and are almost ready for roll-out.  </p>
 				<h4>Tech Stack:</h4> 
         <p>React, Redux, ag-Grid, SASS, Semantic UI, Reactstrap, NodeJS, PostgreSQL, Express, SQL, Knex.</p>
@@ -61,7 +62,7 @@ export default function Projects(){
 				<li>Added the ability to filter and export pump data to an excel spread sheet.</li>
 				<li>Created a global mix-ins SASS stylesheet with all colors needed, and common component stylings according to our Figma to make styling changes quick and easy.</li>
         </ul>
-        <p><b>***I can provide log-in info on request***</b></p>
+        
       </div>
       </div>
       </div>
