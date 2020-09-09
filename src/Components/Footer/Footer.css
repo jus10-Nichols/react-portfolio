@@ -5,11 +5,17 @@ a{
 a:hover{
   color: #16a085;
 }
+.footer{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
 .container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  width:83%;
 }
 .myName {
   width: 26%;

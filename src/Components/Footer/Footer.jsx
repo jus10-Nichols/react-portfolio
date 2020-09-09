@@ -29,6 +29,9 @@ export default function Footer(){
 			<p><span role='img' aria-label ='phone'>☎️</span> (952) 270-9736</p>
                 </div>
             </div>
+            <section className='madeBy'>
+                <p>Built with <span role='img' aria-label = 'love'>❤️</span> and a little React. Justin Nichols ©2020.</p>
+            </section>
         </div>
     )
 }
