@@ -25,7 +25,7 @@ export default function Projects(){
   return(
     <div className = 'projectsBody'>
       <div className = 'projectHdr'>
-        <h2>Portfolio</h2>
+        <h2>Past Projects:</h2>
       </div>
       {/* WELLDONE START */}
       <div className = 'wellDone'>
