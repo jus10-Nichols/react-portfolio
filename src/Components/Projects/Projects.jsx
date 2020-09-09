@@ -57,6 +57,9 @@ export default function Projects(){
 				<h4>My Contributions:</h4>
 				<ul>
 				<li>Created an activity calendar that uses color to indicate the status by day for an individual sensor and water pump.</li> 
+        <li>Incorporated dynamic browser routing (welldone.com/monitor/####) to enhance functionality, and ease of use.</li>
+        <li>Used React Map, to display sensor/well locations, incorporating dynamic pins to display the current status of each sensor (Functional, Non-Functional,and Unknown.)</li>
+        <li>Created and role-based view/access control for three different user-types (WellDone Staff, Org Admin, Org staff.)</li>
 				<li>Used ag-grid to build a grid to display all of the organizations currently using Well-Done's devices in pumps they are maintaining or have installed.</li>
 				<li>Implemented foreign keys on an existing, active database to enhance API functionality. </li>
 				<li>Added the ability to filter and export pump data to an excel spread sheet.</li>
