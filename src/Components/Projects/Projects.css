@@ -13,7 +13,10 @@
     /* margin-right: 0.5rem; */
     background-color: white;
 }
-
+.projectHdr{
+    width: 22em;
+    padding:3%;
+}
 
 .foodTruck {
     display: flex;
