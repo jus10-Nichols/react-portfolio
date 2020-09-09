@@ -14,9 +14,12 @@
     background-color: white;
 }
 .projectHdr{
-    width: 22em;
-    padding:3%;
+    width: 25em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 51%;
 }
+
 
 .foodTruck {
     display: flex;
@@ -128,6 +131,12 @@
         justify-content: space-between;
         margin-top: .5rem;
         margin-bottom: 2rem;
+    }
+    .projectHdr{
+        width: 11em;
+        padding-top: 5%;
+        padding-bottom: 2%;
+        margin-right: 38%;
     }
 
 }
