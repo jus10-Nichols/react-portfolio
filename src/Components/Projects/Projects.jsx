@@ -113,12 +113,12 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "droom" className="prjctImg" src={Droom}/>
       <div className ='wdLinks'>
-      <Link style ={bStyle} label= 'deployed site' href = 'https://welldone.netlify.app/'>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://mb-fe.vercel.app/'>
         <button className = 'deployed'>
         <WebIcon fontSize="large"/>
         <h3>Deployed Project</h3>
         </button></Link>
-        <Link style ={bStyle} label ='Github repo' href ='https://github.com/bw-drooms/front-end'>
+        <Link style ={bStyle} label ='Github repo' href ='https://github.com/jnichols93/mb-fe'>
         <button className = 'gitHub'>
         <GitHubIcon fontSize="large"/>
         </button></Link>
@@ -126,20 +126,20 @@ export default function Projects(){
       </div>
         
         <div className = 'wdBio'>
-        <h4>Droom Front-End</h4>
-        <p>Droom lets job seekers swipe right on their dream job! 
-			Job posters simply post their job opening on Droom, 
-			and qualified candidates can swipe right to confirm their interest! As a build-week project, I was given four days to produce a fully functional react/redux front-end.</p>
+        <h4>MathBook</h4>
+        <p>MathBook is a calculator application built using react on the front-end, and Node.js, Express, and Sqlite3. The objective was to create a calculator, that could show the last ten calculations performed to all users currently using the application.
+          cin order to meet the outlined objective, I started by building an API that was limited to only making GET and POST requests. I then Built the front-end using React and styled it up using SCSS. The "instant" update was achieved by having the front end make an api call every few seconds.   
+        </p>
 				<h4>Tech Stack:</h4> 
-        <p>React, Redux, Material-UI, CSS, SASS</p>
+        <p>React, SCSS, Node.js, Express, Sqlite3, Heroku, and Next.js</p>
 				<h4>My Contributions:</h4>
 				<ul>
-				<li>Figured out how to make react swipe right.</li>
-			<li>Implemented React/Redux</li>
-			<li>Learned Material-Ui</li>
-			<li>Learned React-Spring</li>
-			<li>Implemented API calls</li>
-			<li>Built Stateful Components</li>
+				<li>Built a Front-end Application</li>
+		  <li>Created a Back-end API.</li>
+			<li>Used Mixin's for Styling.</li>
+			<li>Found a safe use-case for .eval().</li>
+			<li>Implemented API calls using Axios.</li>
+			<li>Used React Life-Cycle Methods.</li>
         </ul>
       </div>
       </div>
