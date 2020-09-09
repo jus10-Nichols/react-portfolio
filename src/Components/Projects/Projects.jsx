@@ -53,10 +53,11 @@ export default function Projects() {
 
           <div className="wdBio">
             <h4>Well-Done Dashboard</h4>
+            
+            <p>
             <p>
               <b>***I can provide log-in info on request***</b>
             </p>
-            <p>
               {" "}
               <Link
                 style={aStyle}
