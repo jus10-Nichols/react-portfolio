@@ -21,13 +21,7 @@ export default function Projects(){
     width: '3em',
     height: '2em',
   }
-  const cStyle ={
-    width: '6em',
-    height: '2em',
-    color: "#2e2e2e",
-    
-  }
-
+  
   return(
     <div className = 'projectsBody'>
       <div className = 'projectHdr'>
@@ -79,7 +73,8 @@ export default function Projects(){
       <div className = 'wdImg'>
       <img  alt= "Food Truck" className="prjctImg" src={FoodTruck}/>
       <div className ='wdLinks'>
-      <Link style ={bStyle} label= 'deployed site' href = 'https://ftt2.herokuapp.com/'><button className = 'deployed'>
+      <Link style ={bStyle} label= 'deployed site' href = 'https://ftt2.herokuapp.com/'>
+        <button className = 'deployed'>
         <WebIcon fontSize="large"/>
         <h3>Deployed Project</h3>
         </button></Link>

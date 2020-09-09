@@ -1,3 +1,10 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #16a085;
+}
 .container {
   display: flex;
   flex-direction: row;

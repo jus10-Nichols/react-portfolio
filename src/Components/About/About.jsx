@@ -1,7 +1,7 @@
 import React from 'react';
 import './About.css';
 import ProfilePic from '../../assets/profilePic.png';
-
+import '../../App.css'
 export default function About(){
     return(
         <div className ="aboutMe">
