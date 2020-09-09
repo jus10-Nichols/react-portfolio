@@ -32,7 +32,7 @@ a:hover{
 }
 .madeBy{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -54,9 +54,5 @@ a:hover{
   .contactMe {
     margin-right: 0;
   }
-  .madeBy{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+
 }
