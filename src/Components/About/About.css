@@ -57,7 +57,7 @@ h4{
     margin-bottom: 0;
 }
 
-@media(max-width:900px){
+@media (max-width:900px){
     .introBody {
         display: flex;
         flex-flow: column;
@@ -90,7 +90,7 @@ h4{
 
 }
 @media(max-width:500px){
-    .circleImg {
+    .justinNichols{
         height: 54vw;
         border-radius: 50%;
         padding-top: 6%;
