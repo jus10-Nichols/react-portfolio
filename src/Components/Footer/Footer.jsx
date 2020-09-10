@@ -26,7 +26,7 @@ export default function Footer(){
                 <div className ="contactMe">
                 <p><b>YOU CAN REACH ME AT:</b></p>
 			<span role='img' aria-label ='email'>✉️ <a href="mailto: justin.g.nichols.93@gmail.com"><b>justin.g.nichols.93@gmail.com</b></a></span> 
-			<p><span role='img' aria-label ='phone'>☎️</span> <b>(952) 270-9736</b></p>
+			<p><span role='img' aria-label ='phone'>☎️</span> <a href="tel:952-270-9736"><b>(952) 270-9736</b></a></p>
                 </div>
             </div>
             <section className='madeBy'>
