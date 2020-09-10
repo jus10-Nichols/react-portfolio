@@ -31,7 +31,7 @@ export default function Footer(){
             </div>
             <section className='madeBy'>
                 <p>Built with <span role='img' aria-label = 'love'>❤️</span> and a little React.</p>
-                <p>Justin Nichols ©2020.</p>
+                <p>© Justin Nichols 2020.</p>
             </section>
         </div>
     )
