@@ -6,7 +6,7 @@ import Droom from "../../assets/Droom.png";
 import { Link } from "@material-ui/core";
 import WebIcon from "@material-ui/icons/Web";
 import GitHubIcon from "@material-ui/icons/GitHub";
-
+import Shamazon from "../../assets/shamazon.png"
 export default function Projects() {
   const aStyle = {
     color: "#16a085",
@@ -130,12 +130,12 @@ export default function Projects() {
       <div className="foodTruck">
         <div className="ftInfo">
           <div className="wdImg">
-            <img alt="Food Truck" className="prjctImg" src={FoodTruck} />
+            <img alt="shamazon" className="prjctImg" src={ Shamazon} />
             <div className="wdLinks">
               <Link
                 style={bStyle}
                 label="deployed site"
-                href="https://ftt2.herokuapp.com/"
+                href="https://storefront-a6487.web.app/"
               >
                 <button className="deployed">
                   <WebIcon fontSize="large" />
@@ -145,7 +145,7 @@ export default function Projects() {
               <Link
                 style={bStyle}
                 label="Github repo"
-                href="https://github.com/food-truck-trackr/back-end"
+                href="https://github.com/jnichols93/storefront"
               >
                 <button className="gitHub">
                   <GitHubIcon fontSize="large" />
@@ -155,32 +155,27 @@ export default function Projects() {
           </div>
 
           <div className="ftBio">
-            <h4>Food Truck Trackr API</h4>
+            <h4>shAmazon.com</h4>
             <p>
-              Food Truck Trackr, is an application every foodie needs! It gives
-              users the ability to find their favorite food trucks around town,
-              and where they plan to be next. And food truck owners, can use the
-              platform to communicate with potential guests. As part of a build
-              week, I and a team of four front-end developers built out this
-              application in only four days. I built the API and Database,
-              individually while the rest of the team focused on the front end.
+              shAmazon is based on a popular online marketplace. I wanted to get better at using reacts Context API as well as familiarize myself with Firebase!
+              I kept it pretty light weight, however I did implement authentication, and thanks to firebase it was a breeze 10/10 would use again.
+              
             </p>
             <h4>Tech Stack:</h4>
             <p>
-              Node.js, Express, Sqlite3, Knex, PostgreSQL, SuperTest, Helmet,
-              Bcrypt.js
+              React, MaterialUi, Node Sass, and Firebase for the back-end.
             </p>
-            <h4>My Contributions:</h4>
+            <h4>My Accomplishments:</h4>
             <ul>
-              <li>Built a fully functional CRUD API and Database.</li>
-              <li>Used JSON Web Token/Authorization Headers.</li>
+              <li>Used Context API for state management</li>
+              <li>Used Firebase for hosting and authentication.</li>
               <li>
-                Incorporated foreign keys throughout my DB Table Structure.
+                Styled the application using Syntactically Awesome Style Sheets (SAAS).
               </li>
               <li>
-                Implemented multiple role based & many to one relationships
+                Found a meowing ASCII Duck in Amazons code.
               </li>
-              <li>Built Tests for all API functions.</li>
+              <li>Optimized For performance!</li>
             </ul>
           </div>
         </div>
@@ -235,6 +230,64 @@ export default function Projects() {
               <li>Found a safe use-case for .eval().</li>
               <li>Implemented API calls using Axios.</li>
               <li>Used React Life-Cycle Methods.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div className="foodTruck">
+        <div className="ftInfo">
+          <div className="wdImg">
+            <img alt="Food Truck" className="prjctImg" src={FoodTruck} />
+            <div className="wdLinks">
+              <Link
+                style={bStyle}
+                label="deployed site"
+                href="https://ftt2.herokuapp.com/"
+              >
+                <button className="deployed">
+                  <WebIcon fontSize="large" />
+                  <h3>Deployed Project</h3>
+                </button>
+              </Link>
+              <Link
+                style={bStyle}
+                label="Github repo"
+                href="https://github.com/food-truck-trackr/back-end"
+              >
+                <button className="gitHub">
+                  <GitHubIcon fontSize="large" />
+                </button>
+              </Link>
+            </div>
+          </div>
+
+          <div className="ftBio">
+            <h4>Food Truck Trackr API</h4>
+            <p>
+              Food Truck Trackr, is an application every foodie needs! It gives
+              users the ability to find their favorite food trucks around town,
+              and where they plan to be next. And food truck owners, can use the
+              platform to communicate with potential guests. As part of a build
+              week, I and a team of four front-end developers built out this
+              application in only four days. I built the API and Database,
+              individually while the rest of the team focused on the front end.
+            </p>
+            <h4>Tech Stack:</h4>
+            <p>
+              Node.js, Express, Sqlite3, Knex, PostgreSQL, SuperTest, Helmet,
+              Bcrypt.js
+            </p>
+            <h4>My Contributions:</h4>
+            <ul>
+              <li>Built a fully functional CRUD API and Database.</li>
+              <li>Used JSON Web Token/Authorization Headers.</li>
+              <li>
+                Incorporated foreign keys throughout my DB Table Structure.
+              </li>
+              <li>
+                Implemented multiple role based & many to one relationships
+              </li>
+              <li>Built Tests for all API functions.</li>
             </ul>
           </div>
         </div>
