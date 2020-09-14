@@ -158,7 +158,8 @@ export default function Projects() {
             <h4>shAmazon.com</h4>
             <p>
               shAmazon is based on a popular online marketplace. I wanted to get better at using reacts Context API as well as familiarize myself with Firebase!
-              I kept it pretty light weight, however I did implement authentication, and thanks to firebase it was a breeze 10/10 would use again.
+              I kept it pretty light weight, however I did implement authentication, and thanks to firebase it was a breeze 10/10 would use again. 
+              I will be incorporating stripe for payment handling, building out the product list into sub categories, creating a quantity multiplier to prevent duplicate cart items, and rounding out the overall user experience intermittently.
               
             </p>
             <h4>Tech Stack:</h4>
