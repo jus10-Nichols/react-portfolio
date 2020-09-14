@@ -164,11 +164,12 @@ export default function Projects() {
             </p>
             <h4>Tech Stack:</h4>
             <p>
-              React, MaterialUi, Node Sass, and Firebase for the back-end.
+              React, React-Router, MaterialUi, Node Sass, and Firebase for the back-end.
             </p>
             <h4>My Accomplishments:</h4>
             <ul>
               <li>Used Context API for state management</li>
+              <li>Shamazon is a single page application, routing was done with react-router.</li>
               <li>Used Firebase for hosting and authentication.</li>
               <li>
                 Styled the application using Syntactically Awesome Style Sheets (SAAS).
