@@ -213,14 +213,13 @@ export default function Projects() {
             <h4>Just-ify (Spotify)</h4>
             <p>
               Justify is a redesign of the music streaming service Spotify, the authentication and all of the data displayed is directly from the Spotify API!
-              Unfortunately I was not able to incorporate actual music streaming as the API does not allow that unfortunately. 
-              The app is hosted on firebase, and is able to display what music is currently playing on the logged in spotify account.
+              Unfortunately I was not able to incorporate actual music streaming as the API does not allow that. 
+              The app is hosted on firebase, and is able to display what song is currently playing and all of the playists belonging to the logged in Spotify account.
             </p>
             <h4>Tech Stack:</h4>
             <p>React, Material-ui, SASS, Firebase</p>
             <h4>My Contributions:</h4>
             <ul>
-              <li>Built a Front-end Application</li>
               <li>Used Data from Spotifys API.</li>
               <li>Used SASS for styling and creating Mix-ins for common colors.</li>
               <li>Integrated authentication from Spotifys API.</li>
