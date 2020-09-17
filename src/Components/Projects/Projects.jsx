@@ -2,7 +2,7 @@ import React from "react";
 import "./Projects.css";
 import WellDone from "../../assets/WellDone.png";
 import FoodTruck from "../../assets/ftt.png";
-import Droom from "../../assets/Droom.png";
+import Droom from "../../assets/justify.png";
 import { Link } from "@material-ui/core";
 import WebIcon from "@material-ui/icons/Web";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -190,7 +190,7 @@ export default function Projects() {
               <Link
                 style={bStyle}
                 label="deployed site"
-                href="https://mb-fe.vercel.app/"
+                href="https://justify-ff4a5.web.app/"
               >
                 <button className="deployed">
                   <WebIcon fontSize="large" />
@@ -200,7 +200,7 @@ export default function Projects() {
               <Link
                 style={bStyle}
                 label="Github repo"
-                href="https://github.com/jnichols93/mb-fe"
+                href="https://github.com/jnichols93/jus-tify"
               >
                 <button className="gitHub">
                   <GitHubIcon fontSize="large" />
@@ -210,27 +210,21 @@ export default function Projects() {
           </div>
 
           <div className="wdBio">
-            <h4>MathBook</h4>
+            <h4>Just-ify (Spotify)</h4>
             <p>
-              MathBook is a calculator application built using react on the
-              front-end, and Node.js, Express, and Sqlite3. The objective was to
-              create a calculator, that could show the last ten calculations
-              performed to all users currently using the application. cin order
-              to meet the outlined objective, I started by building an API that
-              was limited to only making GET and POST requests. I then Built the
-              front-end using React and styled it up using SCSS. The "instant"
-              update was achieved by having the front end make an api call every
-              few seconds.
+              Justify is a redesign of the music streaming service Spotify, the authentication and all of the data displayed is directly from the Spotify API!
+              Unfortunately I was not able to incorporate actual music streaming as the API does not allow that unfortunately. 
+              The app is hosted on firebase, and is able to display what music is currently playing on the logged in spotify account.
             </p>
             <h4>Tech Stack:</h4>
-            <p>React, SCSS, Node.js, Express, Sqlite3, Heroku, and Next.js</p>
+            <p>React, Material-ui, SASS, Firebase</p>
             <h4>My Contributions:</h4>
             <ul>
               <li>Built a Front-end Application</li>
-              <li>Created a Back-end API.</li>
-              <li>Used Mixin's for Styling.</li>
-              <li>Found a safe use-case for .eval().</li>
-              <li>Implemented API calls using Axios.</li>
+              <li>Used Data from Spotifys API.</li>
+              <li>Used SASS for styling and creating Mix-ins for common colors.</li>
+              <li>Integrated authentication from Spotifys API.</li>
+              <li>Used Context API for State Management.</li>
               <li>Used React Life-Cycle Methods.</li>
             </ul>
           </div>
