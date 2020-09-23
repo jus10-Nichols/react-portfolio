@@ -220,13 +220,14 @@ export default function Projects() {
           <div className="wdBio">
             <h4>Just-ify (Spotify)</h4>
             <p>
-              Justify is a redesign of the music streaming service Spotify, the
-              authentication and all of the data displayed is directly from the
-              Spotify API! Unfortunately I was not able to incorporate actual
-              music streaming as the API does not allow that. The app is hosted
-              on firebase, and is able to display what song is currently playing
-              and all of the playists belonging to the logged in Spotify
-              account.
+              Justify is a redesign of the music streaming service Spotify, All
+              colors were chosen to look complementary for users with varying
+              types of color blindness. The authentication and all of the data
+              displayed is directly from the Spotify API! Unfortunately I was
+              not able to incorporate actual music streaming as the API does not
+              allow that. The app is hosted on firebase, and is able to display
+              what song is currently playing and all of the playists belonging
+              to the logged in Spotify account.
             </p>
             <h4>Tech Stack:</h4>
             <p>React, Material-ui, SASS, Firebase</p>
