@@ -6,7 +6,7 @@ import Droom from "../../assets/justify.png";
 import { Link } from "@material-ui/core";
 import WebIcon from "@material-ui/icons/Web";
 import GitHubIcon from "@material-ui/icons/GitHub";
-import Shamazon from "../../assets/shamazon.png"
+import Shamazon from "../../assets/shamazon.png";
 export default function Projects() {
   const aStyle = {
     color: "#16a085",
@@ -53,12 +53,11 @@ export default function Projects() {
 
           <div className="wdBio">
             <h4>Well-Done Dashboard</h4>
-            
+
             <p>
-            <p>
-              <b>***I can provide log-in info on request***</b>
-            </p>
-              {" "}
+              <p>
+                <b>***I can provide log-in info on request***</b>
+              </p>{" "}
               <Link
                 style={aStyle}
                 href="https://www.welldone.org/remote-monitoring"
@@ -130,7 +129,7 @@ export default function Projects() {
       <div className="foodTruck">
         <div className="ftInfo">
           <div className="wdImg">
-            <img alt="shamazon" className="prjctImg" src={ Shamazon} />
+            <img alt="shamazon" className="prjctImg" src={Shamazon} />
             <div className="wdLinks">
               <Link
                 style={bStyle}
@@ -157,27 +156,36 @@ export default function Projects() {
           <div className="ftBio">
             <h4>shAmazon.com</h4>
             <p>
-              shAmazon is based on a popular online marketplace. I wanted to get better at using reacts Context API as well as familiarize myself with Firebase!
-              I kept it pretty light weight, however I did implement authentication, and thanks to firebase it was a breeze 10/10 would use again. 
-              I will be incorporating stripe for payment handling, building out the product list into sub categories, creating a quantity multiplier to prevent duplicate cart items, and rounding out the overall user experience intermittently.
-              
+              shAmazon is a personal project based on a popular online
+              marketplace. I wanted to get better at using reacts Context API as
+              well as familiarize myself with Firebase and Stripe! Please do not
+              use any actual card info, it will get processed and I don't know
+              how to get it back. As I continue building out the functionality I
+              will be adding a quantity multiplier to prevent duplicate cart
+              items and rounding out the overall user experience intermittently.
             </p>
             <h4>Tech Stack:</h4>
             <p>
-              React, React-Router, MaterialUi, Node Sass, and Firebase for the back-end.
+              React, React-Router, MaterialUi, Node Sass, Stripe for payment
+              handling and Express with Firebase for the back-end.
             </p>
             <h4>My Accomplishments:</h4>
             <ul>
               <li>Used Context API for state management</li>
-              <li>Shamazon is a single page application, routing was done with react-router.</li>
-              <li>Used Firebase for hosting and authentication.</li>
               <li>
-                Styled the application using Syntactically Awesome Style Sheets (SAAS).
+                Shamazon is a single page application, routing was done with
+                react-router.
               </li>
               <li>
-                Found a meowing ASCII Duck in Amazons code.
+                Used Firebase for hosting, authentication and purchase
+                information.
               </li>
-              <li>Optimized For performance!</li>
+              <li>
+                Styled the application using Syntactically Awesome Style Sheets
+                (SAAS).
+              </li>
+              <li>Found a meowing ASCII Duck in Amazons code.</li>
+              <li>Incorporated payment handling with stripe.</li>
             </ul>
           </div>
         </div>
@@ -212,16 +220,22 @@ export default function Projects() {
           <div className="wdBio">
             <h4>Just-ify (Spotify)</h4>
             <p>
-              Justify is a redesign of the music streaming service Spotify, the authentication and all of the data displayed is directly from the Spotify API!
-              Unfortunately I was not able to incorporate actual music streaming as the API does not allow that. 
-              The app is hosted on firebase, and is able to display what song is currently playing and all of the playists belonging to the logged in Spotify account.
+              Justify is a redesign of the music streaming service Spotify, the
+              authentication and all of the data displayed is directly from the
+              Spotify API! Unfortunately I was not able to incorporate actual
+              music streaming as the API does not allow that. The app is hosted
+              on firebase, and is able to display what song is currently playing
+              and all of the playists belonging to the logged in Spotify
+              account.
             </p>
             <h4>Tech Stack:</h4>
             <p>React, Material-ui, SASS, Firebase</p>
             <h4>My Contributions:</h4>
             <ul>
               <li>Used Data from Spotifys API.</li>
-              <li>Used SASS for styling and creating Mix-ins for common colors.</li>
+              <li>
+                Used SASS for styling and creating Mix-ins for common colors.
+              </li>
               <li>Integrated authentication from Spotifys API.</li>
               <li>Used Context API for State Management.</li>
               <li>Used React Life-Cycle Methods.</li>
